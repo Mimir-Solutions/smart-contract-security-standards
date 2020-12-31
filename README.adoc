@@ -1,0 +1,23 @@
+= smart-contract-security-standards
+
+== Contribution Standards
+
+Entries are written using AsciiDoc.
+
+Sybtax guides can be found below.
+
+https://asciidoctor.org/docs/asciidoc-writers-guide
+https://asciidoc3.org/cheatsheet.html
+https://powerman.name/doc/asciidoc
+https://www.vogella.com/tutorials/AsciiDoc/article.html
+
+Diagrams may be written in any format that can be render and inserting by AsciiDoctor.
+Compatiable notations can be found at https://asciidoctor.org/docs/asciidoctor-diagram/.
+
+We recommend using UMLet as it is free, and open source.
+Umlet can be found here https://www.umlet.com/.
+There is also a VSCode plugin that provides a visual editor here https://marketplace.visualstudio.com/items?itemName=TheUMLetTeam.umlet
+
+Each entry will consist of either a security best practice with accompanying explanation of the vulnerability prevented or known vulnerability.
+Each entry will include relevant technical details of how the blockchain runtime operates that enables the vulnerability.
+Each entry will be written as it's own file with the path relating to blockchain and programming language titled with a descriptive name or relevant SWC.
